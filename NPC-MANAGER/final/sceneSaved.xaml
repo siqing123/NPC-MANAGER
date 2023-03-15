@@ -1,0 +1,24 @@
+﻿<Window x:Class="final.sceneSaved"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:final"
+        mc:Ignorable="d"
+        Title="sceneSaved" Height="450" Width="800">
+    <Grid>
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="634,58,0,0" VerticalAlignment="Top" Width="75" Click="addButton_Click"/>
+        <Button Content="LOAD" HorizontalAlignment="Left" Margin="37,44,0,0" VerticalAlignment="Top" Width="111" Click="load_BG_Button_Click"/>
+        <Image x:Name="backGroundImage" HorizontalAlignment="Left" Height="289" Margin="10,103,0,0" VerticalAlignment="Top" Width="382"/>
+        <ListBox x:Name="lbNpc" HorizontalAlignment="Left" Height="277" Margin="408,115,0,0" VerticalAlignment="Top" Width="209"/>
+        <TextBlock HorizontalAlignment="Left" Margin="408,72,0,0" TextWrapping="Wrap" Text="NPC" VerticalAlignment="Top" Height="22" Width="70"/>
+        <Button Content="NAME:" HorizontalAlignment="Left" Margin="234,10,0,0" VerticalAlignment="Top" Width="75" Click="pushNameButton_Click"/>
+        <TextBox x:Name="txtSceneName" HorizontalAlignment="Left" Height="23" Margin="222,40,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="SAVE" HorizontalAlignment="Left" Margin="451,15,0,0" VerticalAlignment="Top" Width="132" Click="saveAndReturnButton_Click"/>
+        <Button Content="EDIT" HorizontalAlignment="Left" Margin="634,93,0,0" VerticalAlignment="Top" Width="75" Click="edit_Button_Click"/>
+        <Button Content="DELETE" HorizontalAlignment="Left" Margin="634,128,0,0" VerticalAlignment="Top" Width="75" Click="delete_Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,15,0,0" TextWrapping="Wrap" Text="NAME" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtSceneNameShow" HorizontalAlignment="Left" Margin="105,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="86" Height="15"/>
+
+    </Grid>
+</Window>
